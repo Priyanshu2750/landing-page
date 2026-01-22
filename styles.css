@@ -30,3 +30,57 @@ body {
   font-size: 18px;
   text-decoration: none;
 }
+
+.hero {
+  background-color: #1f2937;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 24px;
+}
+
+.writeup {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.heading {
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.para {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.signup {
+  background: #3882f6;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 32px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.image-placeholder {
+  background-color: #6d747d;
+  color: white;
+  text-align: center;
+  width: 500px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
