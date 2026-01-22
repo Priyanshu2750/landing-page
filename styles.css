@@ -150,3 +150,37 @@ body {
   align-self: flex-end;
   font-weight: 700;
 }
+
+.call {
+  background-color: #3882f6;
+  max-width: 900px;
+  margin: 64px auto;
+  border-radius: 8px;
+  padding: 24px 64px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.call-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.action {
+  color: #f9faf8;
+  font-weight: 600;
+  margin: 0;
+}
+
+.request {
+  color: #f9faf8;
+  font-size: 12px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.call .signup {
+  border: solid 2px white;
+}
