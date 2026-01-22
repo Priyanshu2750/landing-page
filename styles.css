@@ -134,7 +134,6 @@ body {
 .quote-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -159,7 +158,6 @@ body {
   padding: 24px 64px;
   display: flex;
   justify-content: space-between;
-  gap: 32px;
 }
 
 .call-text {
@@ -183,4 +181,21 @@ body {
 
 .call .signup {
   border: solid 2px white;
+}
+
+.footer {
+  background-color: #1f2937;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: #e5e7eb;
+  font-size: 12px;
 }
